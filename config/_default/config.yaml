@@ -3,7 +3,15 @@ paginate: 18
 enableRobotsTXT: true
 removePathAccents: true
 params:
+  breadcrumb:
+    position: after-hero
   summary:
     position: hero
   search:
-    active: false  
+    active: true
+  posts:
+    index:
+      layout: grid
+  logo:
+    header: "/assets/images/logo-design-institut.png"
+    footer: "/assets/images/logo-design-institut.png"
