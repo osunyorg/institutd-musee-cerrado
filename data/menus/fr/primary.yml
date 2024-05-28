@@ -25,4 +25,16 @@ items:
   target: "/fr/test/"
   kind: page
   children: []
+- title: Diplômes
+  target: "/fr/diplomes/"
+  kind: page
+  children: []
+- title: Formations
+  target: "/fr/formations/"
+  kind: page
+  children: []
+- title: Campus
+  target: "/fr/campus/"
+  kind: page
+  children: []
 
