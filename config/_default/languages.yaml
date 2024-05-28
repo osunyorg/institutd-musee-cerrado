@@ -32,7 +32,7 @@ br:
   title: >-
     Musée Cerrado
   contentDir: content/br
-  languageCode: br
+  languageCode: pt-BR
   languageName: Português brasileiro
   params:
     social:
