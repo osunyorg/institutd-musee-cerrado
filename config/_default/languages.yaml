@@ -14,34 +14,8 @@ fr:
     events_categories: /agenda/:slug/
     projects: /projets/:year-:slug/
     projects_categories: /projets/:slug/
-  taxonomies:
-    administrator: administrators
-    author: authors
-    diploma: diplomas
-    events_category: events_categories
-    location: locations
-    organizations_category: organizations_categories
-    persons_category: persons_categories
-    posts_category: posts_categories
-    projects_category: projects_categories
-    researcher: researchers
-    teacher: teachers
-    volume: volumes
-
-br:
-  title: >-
-    Musée Cerrado
-  contentDir: content/br
-  languageCode: pt-BR
-  languageName: Português brasileiro
-  params:
-    social:
-  permalinks:
-    posts: /actualites/:year-:month-:day-:slug/
-    events: /agenda/:year-:month-:day-:slug/
-    events_categories: /agenda/:slug/
-    projects: /projets/:year-:slug/
-    projects_categories: /projets/:slug/
+    persons: /equipe/:slug/
+    persons_categories: /equipe/:slug/
   taxonomies:
     administrator: administrators
     author: authors
