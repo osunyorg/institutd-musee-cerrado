@@ -1,0 +1,20 @@
+---
+title: Menu principal
+items:
+- title: Équipe brasileira
+  target: "/pt/equipe/"
+  kind: page
+  children: []
+- title: Actualités
+  target: "/pt/actualites/"
+  kind: page
+  children: []
+- title: Agenda
+  target: "/pt/agenda/"
+  kind: page
+  children: []
+- title: Projets
+  target: "/pt/projets/"
+  kind: page
+  children: []
+
