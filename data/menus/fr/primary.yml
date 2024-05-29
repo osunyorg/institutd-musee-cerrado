@@ -9,7 +9,7 @@ items:
   target: "/fr/projets/"
   kind: page
   children: []
-- title: Cordels
+- title: les cordels
   target: ''
   kind: blank
   children: []
