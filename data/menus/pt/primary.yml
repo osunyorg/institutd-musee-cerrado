@@ -17,4 +17,8 @@ items:
   target: "/pt/projets/"
   kind: page
   children: []
+- title: Les cordels
+  target: "/pt/les-cordels/"
+  kind: page
+  children: []
 
