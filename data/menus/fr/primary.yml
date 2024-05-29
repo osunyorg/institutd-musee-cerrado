@@ -4,11 +4,11 @@ items:
 - title: Actualités
   target: "/fr/actualites/"
   kind: page
-  children: []
-- title: Agenda
-  target: "/fr/agenda/"
-  kind: page
-  children: []
+  children:
+  - title: Agenda
+    target: "/fr/agenda/"
+    kind: page
+    children: []
 - title: Projets
   target: "/fr/projets/"
   kind: page
