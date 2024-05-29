@@ -25,7 +25,7 @@ items:
     target: "/fr/equipe/"
     kind: page
     children: []
-- title: portraits
+- title: les portraits
   target: ''
   kind: blank
   children: []
