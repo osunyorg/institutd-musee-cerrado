@@ -9,7 +9,7 @@ items:
     target: "/fr/agenda/"
     kind: page
     children: []
-- title: Projets
+- title: Musée ?
   target: "/fr/projets/"
   kind: page
   children: []
