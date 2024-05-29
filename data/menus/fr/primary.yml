@@ -5,6 +5,10 @@ items:
   target: "/fr/les-portraits/"
   kind: page
   children: []
+- title: les machines
+  target: "/fr/les-machines/"
+  kind: page
+  children: []
 - title: les cordels
   target: "/fr/les-cordels/"
   kind: page
