@@ -1,18 +1,18 @@
 ---
 title: Menu principal
 items:
-- title: Actualités
-  target: "/fr/actualites/"
-  kind: page
-  children:
-  - title: Agenda
-    target: "/fr/agenda/"
-    kind: page
-    children: []
 - title: le projet
   target: "/fr/projets/"
   kind: page
-  children: []
+  children:
+  - title: Actualités
+    target: "/fr/actualites/"
+    kind: page
+    children:
+    - title: Agenda
+      target: "/fr/agenda/"
+      kind: page
+      children: []
 - title: Équipe
   target: "/fr/equipe/"
   kind: page
