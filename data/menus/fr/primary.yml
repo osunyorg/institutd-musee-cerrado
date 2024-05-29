@@ -5,28 +5,8 @@ items:
   target: ''
   kind: blank
   children: []
-- title: les machines
-  target: "/fr/projets/"
-  kind: page
-  children: []
 - title: les cordels
   target: ''
   kind: blank
   children: []
-- title: le projet
-  target: "/fr/projets/"
-  kind: page
-  children:
-  - title: Actualités
-    target: "/fr/actualites/"
-    kind: page
-    children: []
-  - title: Agenda
-    target: "/fr/actualites/agenda/"
-    kind: page
-    children: []
-  - title: Fiche technique
-    target: "/fr/equipe/"
-    kind: page
-    children: []
 
