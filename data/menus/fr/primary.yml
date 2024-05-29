@@ -21,8 +21,4 @@ items:
   target: "/fr/organisations/"
   kind: page
   children: []
-- title: Diplômes
-  target: "/fr/campus/diplomes/"
-  kind: page
-  children: []
 
