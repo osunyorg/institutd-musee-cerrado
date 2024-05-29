@@ -13,5 +13,5 @@ params:
     index:
       layout: grid
   logo:
-    header: "/assets/images/logo_fr.svg"
-    footer: "/assets/images/logo_fr.svg"
+    header: "/assets/images/logo_br.svg"
+    footer: "/assets/images/logo_br.svg"
