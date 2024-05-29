@@ -29,8 +29,4 @@ items:
   target: "/fr/campus/diplomes/formations/"
   kind: page
   children: []
-- title: Campus
-  target: "/fr/campus/"
-  kind: page
-  children: []
 
