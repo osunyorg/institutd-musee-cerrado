@@ -13,4 +13,20 @@ items:
   target: "/fr/les-cordels/"
   kind: page
   children: []
+- title: le projet
+  target: "/fr/projets/"
+  kind: page
+  children:
+  - title: Actualités
+    target: "/fr/actualites/"
+    kind: page
+    children: []
+  - title: Agenda
+    target: "/fr/actualites/agenda/"
+    kind: page
+    children: []
+  - title: Fiche technique
+    target: "/fr/equipe/"
+    kind: page
+    children: []
 
