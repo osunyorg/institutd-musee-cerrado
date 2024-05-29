@@ -26,7 +26,7 @@ items:
   kind: page
   children: []
 - title: Formations
-  target: "/fr/formations/"
+  target: "/fr/diplomes/formations/"
   kind: page
   children: []
 - title: Campus
