@@ -22,11 +22,11 @@ items:
   kind: page
   children: []
 - title: Diplômes
-  target: "/fr/diplomes/"
+  target: "/fr/campus/diplomes/"
   kind: page
   children: []
 - title: Formations
-  target: "/fr/diplomes/formations/"
+  target: "/fr/campus/diplomes/formations/"
   kind: page
   children: []
 - title: Campus
