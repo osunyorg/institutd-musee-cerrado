@@ -21,10 +21,6 @@ items:
   target: "/fr/organisations/"
   kind: page
   children: []
-- title: Test
-  target: "/fr/test/"
-  kind: page
-  children: []
 - title: Diplômes
   target: "/fr/diplomes/"
   kind: page
