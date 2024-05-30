@@ -22,7 +22,7 @@ items:
     kind: page
     children: []
   - title: Agenda
-    target: "/fr/actualites/agenda/"
+    target: "/fr/agenda/"
     kind: page
     children: []
   - title: Fiche technique
