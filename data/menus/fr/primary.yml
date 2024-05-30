@@ -29,4 +29,8 @@ items:
     target: "/fr/le-projet/equipe/"
     kind: page
     children: []
+- title: Qui sommes nous ?
+  target: "/fr/le-projet/"
+  kind: page
+  children: []
 
