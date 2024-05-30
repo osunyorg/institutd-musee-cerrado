@@ -17,7 +17,7 @@ items:
   target: "/fr/le-projet/"
   kind: page
   children:
-  - title: Qui sommes nous ?
+  - title: Pourquoi ce projet ?
     target: "/fr/le-projet/"
     kind: page
     children: []
