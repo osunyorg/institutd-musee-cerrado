@@ -43,10 +43,10 @@ fr:
       youtube: >-
         https://www.youtube.com/@Maquinasdodiaadia-ro8us
   permalinks:
-    posts: /actualites/:year-:month-:day-:slug/
-    posts_categories: /actualites/:slug/
-    events: /agenda/:year-:month-:day-:slug/
-    events_categories: /agenda/:slug/
+    posts: /le-projet/actualites/:year-:month-:day-:slug/
+    posts_categories: /le-projet/actualites/:slug/
+    events: /le-projet/agenda/:year-:month-:day-:slug/
+    events_categories: /le-projet/agenda/:slug/
     projects: /projets/:year-:slug/
     projects_categories: /projets/:slug/
     persons: /le-projet/equipe/:slug/

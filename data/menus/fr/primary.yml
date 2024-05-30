@@ -18,11 +18,11 @@ items:
   kind: page
   children:
   - title: Actualités
-    target: "/fr/actualites/"
+    target: "/fr/le-projet/actualites/"
     kind: page
     children: []
   - title: Agenda
-    target: "/fr/agenda/"
+    target: "/fr/le-projet/agenda/"
     kind: page
     children: []
   - title: Fiche technique
