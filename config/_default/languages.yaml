@@ -10,6 +10,8 @@ pt:
     social:
       youtube: >-
         https://www.youtube.com/@Maquinasdodiaadia-ro8us
+      facebook: >-
+        https://www.facebook.com/profile.php?id=100091829744423
   permalinks:
     posts: /actualites/:year-:month-:day-:slug/
     posts_categories: /actualites/:slug/
@@ -42,6 +44,8 @@ fr:
     social:
       youtube: >-
         https://www.youtube.com/@Maquinasdodiaadia-ro8us
+      facebook: >-
+        https://www.facebook.com/profile.php?id=100091829744423
   permalinks:
     posts: /le-projet/actualites/:year-:month-:day-:slug/
     posts_categories: /le-projet/actualites/:slug/
