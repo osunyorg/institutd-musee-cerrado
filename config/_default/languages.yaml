@@ -51,8 +51,8 @@ fr:
     posts_categories: /le-projet/actualites/:slug/
     events: /le-projet/agenda/:year-:month-:day-:slug/
     events_categories: /le-projet/agenda/:slug/
-    projects: /projets/:year-:slug/
-    projects_categories: /projets/:slug/
+    projects: /campus/projets/:year-:slug/
+    projects_categories: /campus/projets/:slug/
     persons: /le-projet/equipe/:slug/
     persons_categories: /le-projet/equipe/:slug/
   taxonomies:
