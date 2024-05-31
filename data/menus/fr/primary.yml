@@ -2,35 +2,35 @@
 title: Menu principal
 items:
 - title: les portraits
-  target: "/les-portraits/"
+  target: "/fr/les-portraits/"
   kind: page
   children: []
 - title: les machines
-  target: "/les-machines/"
+  target: "/fr/les-machines/"
   kind: page
   children: []
 - title: les cordels
-  target: "/les-cordels/"
+  target: "/fr/les-cordels/"
   kind: page
   children: []
 - title: le projet
-  target: "/le-projet/"
+  target: "/fr/le-projet/"
   kind: page
   children:
   - title: Pourquoi ce projet ?
-    target: "/le-projet/"
+    target: "/fr/le-projet/"
     kind: page
     children: []
   - title: Actualités
-    target: "/le-projet/actualites/"
+    target: "/fr/le-projet/actualites/"
     kind: page
     children: []
   - title: Agenda
-    target: "/le-projet/agenda/"
+    target: "/fr/le-projet/agenda/"
     kind: page
     children: []
   - title: Fiche technique
-    target: "/le-projet/equipe/"
+    target: "/fr/le-projet/equipe/"
     kind: page
     children: []
 
