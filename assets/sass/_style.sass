@@ -6,8 +6,11 @@
 
 @media (max-width:500px)
 
+    //reduire le logo sur le mobile pour ne pas coincer le menu 
     header#document-header .logo img 
         height: 80px
+
+    //images de couverture (ça ne marche pas)
 
     .page__home header.hero
         background-image: url(/assets/images/Banners/DernierNouvPetit.png)
@@ -29,6 +32,7 @@
 
     .page-cordel header.hero
          background: url(/assets/images/Banners/cordel.png)
+
 
 @media (min-width:992px)
     .authors__taxonomy header.hero
@@ -80,10 +84,10 @@
 .projects__page .hero .project-infos
     display: none
 
-.projects__page .hero .dropdown-share
-    position: absolute
-    left: 0
 
+
+
+//cacher fil d'ariane
 .breadcrumb
     display: none
 
@@ -98,23 +102,32 @@
     margin-top: 0px
     margin-bottom: 0px
     
-    
+//couleur orange sur intertitres
+h2
+    color: $color-accent
 
-main > .blocks .block, body.full-width .block
+//gestion des espaces entre pblocs pour garder les CtA ensemble dans les cordeis
+.page__furo .blocks .block-call_to_action .block-content, body.full-width .block-call_to_action .block-content
+    padding-top: 30px
+    padding-bottom: 30px
     --block-space-y: 2rem
+
+.block-files .files 
+    margin-bottom: 2em
+
+//cacher la catégorie des portfolios
+.project .post-categories a, .project .project-categories a 
+    display: none
 
 .project .post-categories, .project .project-categories
     display: none
 
 
-h2
+//orange sur les "ensavoir plus"
+.meta
     color: $color-accent
 
 
-.page__furo main > .block-content, body.full-width .block
-    --block-space-y: 0rem
-
-
-.page__furo .blocks .block-call_to_action .block-content, body.full-width .block-call_to_action .block-content
-    padding-top: 30px
-    padding-bottom: 30px
+.projects__page .hero .dropdown-share 
+    left: 0
+    position: -ms-page
