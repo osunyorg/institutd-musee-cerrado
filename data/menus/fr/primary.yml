@@ -26,7 +26,7 @@ items:
     kind: page
     children: []
   - title: Actualités
-    target: "/fr/le-projet/actualite/"
+    target: "/fr/le-projet/actualites-1/"
     kind: page
     children: []
 
