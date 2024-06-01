@@ -25,4 +25,8 @@ items:
     target: "/fr/le-projet/equipe/"
     kind: page
     children: []
+  - title: Actualités
+    target: "/fr/le-projet/actualite/"
+    kind: page
+    children: []
 
