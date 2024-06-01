@@ -21,12 +21,12 @@ items:
     target: "/fr/le-projet/"
     kind: page
     children: []
-  - title: Actualités
-    target: "/fr/le-projet/actualites/"
-    kind: page
-    children: []
   - title: Fiche technique
     target: "/fr/le-projet/equipe/"
+    kind: page
+    children: []
+  - title: Actualités
+    target: "/fr/le-projet/actualites/"
     kind: page
     children: []
 
