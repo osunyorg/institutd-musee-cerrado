@@ -29,7 +29,7 @@ full_width: false
 design:
   full_width: false
   toc:
-    present: false
+    present: true
     offcanvas: false
 
 has:
@@ -60,15 +60,15 @@ header_cta:
   label: 
   target: 
 contents_reading_time:
-  seconds: 122
+  seconds: 136
   text: >-
     2 minutes
 contents:
   - kind: heading
     title: >-
-      test version française
+      Équipe recherche
     slug: "test-version-francaise"
-    position: 1
+    position: 0
     rank: 2
   - kind: block
     template: chapter
@@ -133,6 +133,13 @@ contents:
 
 
 
+
+  - kind: heading
+    title: >-
+      Appui institutionnel
+    slug: "appui-institutionnel"
+    position: 1
+    rank: 2
   - kind: block
     template: organizations
     title: >-
@@ -172,10 +179,17 @@ contents:
           external: true
 
 
+
+  - kind: heading
+    title: >-
+      Équipe création du site du musée
+    slug: "equipe-creation-du-site"
+    position: 2
+    rank: 2
   - kind: block
     template: persons
     title: >-
-      Création du site
+      Équipe encadrante
     ranks:
       self: 3
       children: 4
@@ -194,6 +208,62 @@ contents:
           role: >-
             Équipe encadrante
 
+        - slug: "thiago-maximo"
+          role: >-
+            Équipe encadrante
+
+
+
+  - kind: block
+    template: persons
+    title: >-
+      axe créatif retenu
+    ranks:
+      self: 3
+      children: 4
+    data:
+      description: >-
+        
+
+      with_link: false
+      with_photo: false
+      persons:
+        - slug: "romain-tcherbakoff"
+          role: >-
+            Parcours UX, Concept visuel
+
+        - slug: "eliott-fournier"
+          role: >-
+            Parcours UX
+
+        - slug: "valney-rigonato"
+          role: >-
+            Parcours UX
+
+        - slug: "oceane-nivet-le-roux"
+          role: >-
+            SEO, Intégration
+
+        - slug: "eve-anne-buhler"
+          role: >-
+            SEO, Intégration
+
+
+
+  - kind: block
+    template: persons
+    title: >-
+      Étudiants en 1re année du Bachelor Design et Sociétés Nouvelles
+    ranks:
+      self: 3
+      children: 4
+    data:
+      description: >-
+        <p>Merci à tous les étudiants de l'Institut D. qui ont pu expérimenter sur 1 semaine des formes de récit numérique divers pour la création de ce site.</p>
+
+      with_link: false
+      with_photo: false
+      persons:
         - slug: "guillaume-chevalier"
           role: >-
             Étudiant
@@ -240,6 +310,13 @@ contents:
 
 
 
+
+  - kind: heading
+    title: >-
+      Remerciements
+    slug: "remerciements"
+    position: 3
+    rank: 2
   - kind: block
     template: chapter
     title: >-
