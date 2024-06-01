@@ -1,6 +1,8 @@
 title: >-
   musée cerrado
 default:
+  shared_image:
+    id: 65aac20f-f473-4214-804b-b818fed58287
 social:
   youtube: >-
     https://www.youtube.com/@Maquinasdodiaadia-ro8us
