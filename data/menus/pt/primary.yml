@@ -1,10 +1,6 @@
 ---
 title: Menu principal
 items:
-- title: Équipe brasileira
-  target: "/pt/equipe/"
-  kind: page
-  children: []
 - title: Actualités
   target: "/pt/actualites/"
   kind: page
