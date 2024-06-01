@@ -8,45 +8,43 @@
     .page__home header.hero
         background-image: url(/assets/images/Banners/DernierNouvPetit.png)
 
+    .authors__taxonomy header.hero
+        background-image: url(/assets/images/Banners/EquipePetit4.png)  
+
+    .projects__section  header.hero
+        background-image: url(/assets/images/Banners/MachinesPetit3.png) 
+
+    .page-contexte header.hero
+        background-image: url(/assets/images/Banners/PetitContexte.png)
+
+    .page-portraits header.hero
+        background-image: url(/assets/images/Banners/TemoignagePetit.png)
+
+    .page-actualites header.hero
+         background-image: url(/assets/images/Banners/TemoignagePetit.png)
+
+    .page-cordel header.hero
+         background: url(/assets/images/Banners/cordel.png)
+
 @media (min-width:992px)
     .authors__taxonomy header.hero
         background-image: url(/assets/images/Banners/EquipeGrand.png)
 
-@media (max-width:500px)
-    .authors__taxonomy header.hero
-        background-image: url(/assets/images/Banners/EquipePetit4.png)    
-
-@media (min-width:992px)
     .projects__section  header.hero
         background-image: url(/assets/images/Banners/MachinesGrand2.png)
 
-@media (max-width:500px)
-    .projects__section  header.hero
-        background-image: url(/assets/images/Banners/MachinesPetit3.png)
-    
-@media (min-width:992px)
-    .page__cordel  header.hero
-        background-image: url(/assets/images/Banners/CordeisGrand2.png)
-
-@media (max-width:500px)
-    .page__cordel  header.hero
-        background-image: url(/assets/images/Banners/CordeisPetit2.png)
-
-@media (min-width:992px)
     .page-contexte  header.hero
         background-image: url(/assets/images/Banners/ContexteGrand2.png)
 
-@media (max-width:500px)
-    .page-contexte header.hero
-        background-image: url(/assets/images/Banners/PetitContexte.png)
-
-@media (min-width:992px)
     .page-portraits  header.hero
         background-image: url(/assets/images/Banners/TemoignagesGrand2.png)
 
-@media (max-width:500px)
-    .page-portraits header.hero
-        background-image: url(/assets/images/Banners/TemoignagePetit.png)
+    .page-actualites  header.hero
+        background-image: url(/assets/images/Banners/TemoignagesGrand2.png)
+
+    .page-cordel header.hero
+         background: url(/assets/images/Banners/cordel.png)
+
 
 // Texte incliné et marges du call to action
 .block-call_to_action .call_to_action .description
@@ -109,8 +107,12 @@ h2
     color: $color-accent
 
 
-.page__furo main > .blocks .block, body.full-width .block
-    --block-space-y: 2rem
+.page__furo main > .block-content, body.full-width .block
+    --block-space-y: 0rem
 
 header#document-header .logo img 
     height: 80px
+
+.page__furo .blocks .block-call_to_action .block-content, body.full-width .block-call_to_action .block-content
+    padding-top: 30px
+    padding-bottom: 30px
