@@ -10,7 +10,7 @@ items:
   kind: page
   children: []
 - title: les cordels
-  target: "/fr/cordeis/"
+  target: "/fr/cordel/"
   kind: page
   children: []
 - title: le projet
