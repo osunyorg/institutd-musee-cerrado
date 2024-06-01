@@ -21,6 +21,7 @@ pt:
     projects_categories: /projets/:slug/
     persons: /equipe/:slug/
     persons_categories: /equipe/:slug/
+    authors: /equipe/:slug/actualites/
   taxonomies:
     administrator: administrators
     author: authors
@@ -55,6 +56,7 @@ fr:
     projects_categories: /campus/projets/:slug/
     persons: /le-projet/equipe/:slug/
     persons_categories: /le-projet/equipe/:slug/
+    authors: /le-projet/equipe/:slug/actualites/
   taxonomies:
     administrator: administrators
     author: authors
