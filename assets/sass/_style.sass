@@ -5,6 +5,15 @@
 
 
 @media (max-width:500px)
+    .dropdown-menu
+        share_links:
+            enabled: true
+            facebook: false
+            twitter: false
+            linkedin: true
+            email: false
+            telegram: false
+            whatsapp: false
 
     //reduire le logo sur le mobile pour ne pas coincer le menu 
     header#document-header .logo img 
@@ -35,6 +44,18 @@
 
 
 @media (min-width:992px)
+
+    .dropdown-menu
+        share_links:
+            enabled: true
+            facebook: true
+            twitter: true
+            linkedin: true
+            email: false
+            telegram: false
+            whatsapp: true
+
+
     .authors__taxonomy header.hero
         background-image: url(/assets/images/Banners/EquipeGrand.png)
 
@@ -143,5 +164,14 @@ h2
     color: $color-accent
     text-decoration-color: $color-accent
 
+.block-files .files 
+    margin-bottom: 30px
 
-    
+
+body.full-width .block, main> .block
+    --block-space-y: 0rem
+
+body.full-width .block, main> .block
+    --block-space-y: 0rem
+
+

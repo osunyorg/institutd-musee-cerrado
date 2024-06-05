@@ -15,3 +15,14 @@ params:
   logo:
     header: "/assets/images/logo_fr.svg"
     footer: "/assets/images/logo_fr.svg"
+    
+  share_links:
+    enabled: true
+    whatsapp: true
+    facebook: true
+    twitter: true
+    linkedin: true
+    email: true
+    telegram: true
+    mastodon: true
+  
