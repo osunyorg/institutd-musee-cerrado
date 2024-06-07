@@ -19,7 +19,7 @@ pt:
     projects: /projets/:year-:slug/
     projects_categories: /projets/:slug/
     persons: /equipe/:slug/
-    persons_categories: /equipe/:slug/
+    persons_categories: /equipe/categories/:slug/
     authors: /equipe/:slug/actualites/
   taxonomies:
     administrator: administrators
@@ -53,7 +53,7 @@ fr:
     projects: /campus/projets/:year-:slug/
     projects_categories: /campus/projets/:slug/
     persons: /le-projet/equipe/:slug/
-    persons_categories: /le-projet/equipe/:slug/
+    persons_categories: /le-projet/equipe/categories/:slug/
     authors: /le-projet/equipe/:slug/actualites/
   taxonomies:
     administrator: administrators
