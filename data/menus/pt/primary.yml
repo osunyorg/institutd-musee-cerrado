@@ -2,19 +2,19 @@
 title: Menu principal
 items:
 - title: Actualités
-  target: "/actualites/"
+  target: "/pt/actualites/"
   kind: page
   children: []
 - title: Agenda
-  target: "/agenda/"
+  target: "/pt/agenda/"
   kind: page
   children: []
 - title: Projets
-  target: "/projets/"
+  target: "/pt/projets/"
   kind: page
   children: []
 - title: Les cordels
-  target: "/les-cordels/"
+  target: "/pt/les-cordels/"
   kind: page
   children: []
 
