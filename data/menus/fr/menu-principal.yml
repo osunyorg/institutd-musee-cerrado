@@ -1,6 +1,10 @@
 ---
 title: menu principal
 items:
+- title: les portraits
+  target: "/fr/les-portraits/"
+  kind: page
+  children: []
 - title: Les machines
   target: "/fr/les-machines/"
   kind: page
@@ -15,10 +19,6 @@ items:
   children: []
 - title: Équipe
   target: "/fr/le-projet/equipe/"
-  kind: page
-  children: []
-- title: les portraits
-  target: "/fr/les-portraits/"
   kind: page
   children: []
 
