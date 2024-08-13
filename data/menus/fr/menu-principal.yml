@@ -13,4 +13,8 @@ items:
   target: "/fr/cordels/"
   kind: page
   children: []
+- title: Le projet
+  target: ''
+  kind: blank
+  children: []
 
