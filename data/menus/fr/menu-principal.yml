@@ -5,7 +5,7 @@ items:
   target: "/fr/les-portraits/"
   kind: page
   children: []
-- title: Les machines
+- title: les machines
   target: "/fr/les-machines/"
   kind: page
   children: []
