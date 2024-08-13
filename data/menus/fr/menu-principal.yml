@@ -5,12 +5,12 @@ items:
   target: "/fr/les-machines/"
   kind: page
   children: []
-- title: Les cordels
-  target: "/fr/cordels/"
-  kind: page
-  children: []
 - title: Le projet
   target: "/fr/le-projet/"
+  kind: page
+  children: []
+- title: Les cordels
+  target: "/fr/cordels/"
   kind: page
   children: []
 - title: Équipe
