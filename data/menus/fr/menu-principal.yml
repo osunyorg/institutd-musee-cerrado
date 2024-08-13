@@ -16,9 +16,9 @@ items:
 - title: le projet
   target: "/fr/le-projet/"
   kind: page
-  children: []
-- title: Équipe
-  target: "/fr/le-projet/equipe/"
-  kind: page
-  children: []
+  children:
+  - title: Équipe
+    target: "/fr/le-projet/equipe/"
+    kind: page
+    children: []
 
