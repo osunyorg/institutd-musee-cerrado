@@ -9,4 +9,8 @@ items:
   target: "/fr/les-machines/"
   kind: page
   children: []
+- title: Les cordels
+  target: "/fr/cordels/"
+  kind: page
+  children: []
 
