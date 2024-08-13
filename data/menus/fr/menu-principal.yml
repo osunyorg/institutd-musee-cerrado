@@ -17,4 +17,8 @@ items:
   target: ''
   kind: blank
   children: []
+- title: Le projet
+  target: "/fr/le-projet/"
+  kind: page
+  children: []
 
