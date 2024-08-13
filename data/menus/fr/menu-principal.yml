@@ -1,4 +1,8 @@
 ---
 title: menu principal
-items: []
+items:
+- title: Les machines
+  target: "/fr/les-portraits/"
+  kind: page
+  children: []
 
