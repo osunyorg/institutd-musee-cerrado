@@ -21,4 +21,8 @@ items:
     target: "/fr/le-projet/equipe/"
     kind: page
     children: []
+- title: Agenda
+  target: "/fr/le-projet/agenda/"
+  kind: page
+  children: []
 
