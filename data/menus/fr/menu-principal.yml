@@ -2,10 +2,6 @@
 title: menu principal
 items:
 - title: Les machines
-  target: "/fr/les-portraits/"
-  kind: page
-  children: []
-- title: Les machines
   target: "/fr/les-machines/"
   kind: page
   children: []
