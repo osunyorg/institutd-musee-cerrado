@@ -1,4 +1,8 @@
 ---
 title: menu principal
-items: []
+items:
+- title: Cordéis
+  target: "/pt/cordels/"
+  kind: page
+  children: []
 
