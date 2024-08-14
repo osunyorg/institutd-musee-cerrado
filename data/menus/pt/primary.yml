@@ -1,12 +1,12 @@
 ---
 title: menu principal
 items:
-- title: Cordéis
-  target: "/pt/cordels/"
-  kind: page
-  children: []
 - title: Retratos
   target: "/pt/les-portraits/"
+  kind: page
+  children: []
+- title: Cordéis
+  target: "/pt/cordels/"
   kind: page
   children: []
 
