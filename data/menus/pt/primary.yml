@@ -1,20 +1,12 @@
 ---
-title: Menu principal
+title: menu principal
 items:
-- title: Actualités
-  target: "/pt/actualites/"
+- title: Cordéis
+  target: "/pt/cordels/"
   kind: page
   children: []
-- title: Agenda
-  target: "/pt/agenda/"
-  kind: page
-  children: []
-- title: Projets
-  target: "/pt/projets/"
-  kind: page
-  children: []
-- title: Les cordels
-  target: "/pt/les-cordels/"
+- title: Retratos
+  target: "/pt/les-portraits/"
   kind: page
   children: []
 

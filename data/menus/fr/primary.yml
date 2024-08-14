@@ -1,5 +1,5 @@
 ---
-title: Menu principal
+title: menu principal
 items:
 - title: les portraits
   target: "/fr/les-portraits/"
@@ -17,16 +17,12 @@ items:
   target: "/fr/le-projet/"
   kind: page
   children:
-  - title: Pourquoi ce projet ?
-    target: "/fr/le-projet/"
-    kind: page
-    children: []
-  - title: Fiche technique
+  - title: Équipe
     target: "/fr/le-projet/equipe/"
     kind: page
     children: []
-  - title: Actualités
-    target: "/fr/le-projet/actualites-1/"
-    kind: page
-    children: []
+- title: Agenda
+  target: "/fr/le-projet/agenda/"
+  kind: page
+  children: []
 
