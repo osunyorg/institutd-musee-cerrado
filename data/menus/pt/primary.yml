@@ -5,4 +5,8 @@ items:
   target: "/pt/cordels/"
   kind: page
   children: []
+- title: Retratos
+  target: "/pt/les-portraits/"
+  kind: page
+  children: []
 
