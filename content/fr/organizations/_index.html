@@ -55,20 +55,28 @@ header_cta:
   target: ""
   external: false
 contents_reading_time:
-  seconds: 1
+  seconds: 2
   text: >-
     moins d'une minute
 contents:
-  - kind: heading
+  - kind: block
+    template: title
     title: >-
       test 3
-    slug: "test-3"
-    position: 1
-    rank: 2
+    slug: >-
+      test-3
+    ranks:
+      self: 2
+    data:
+      layout: classic
+
+
   - kind: block
     template: chapter
     title: >-
       ;ez jkjzev
+    slug: >-
+      ez-jkjzev
     ranks:
       self: 3
     data:
@@ -88,13 +96,17 @@ contents:
 
 
 
-
-  - kind: heading
+  - kind: block
+    template: title
     title: >-
       test
-    slug: "test"
-    position: 2
-    rank: 2
+    slug: >-
+      test
+    ranks:
+      self: 2
+    data:
+      layout: classic
+
 
 
 ---
