@@ -3,7 +3,7 @@
 baseURL: https://musee-cerrado.institutd.osuny.site
 
 ## LANGUAGE
-defaultContentLanguage: fr
+defaultContentLanguage: pt
 defaultContentLanguageInSubdir: true
 
 ## CACHE
