@@ -9,4 +9,8 @@ items:
   target: "/pt/cordels/"
   kind: page
   children: []
+- title: Máquinas
+  target: "/pt/maquinas/"
+  kind: page
+  children: []
 
