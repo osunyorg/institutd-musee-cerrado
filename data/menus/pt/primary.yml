@@ -13,4 +13,8 @@ items:
   target: "/pt/maquinas/"
   kind: page
   children: []
+- title: Projeto
+  target: "/pt/le-projet/"
+  kind: page
+  children: []
 
