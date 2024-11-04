@@ -21,10 +21,6 @@ items:
     target: "/fr/le-projet/equipe/"
     kind: page
     children: []
-- title: Agenda
-  target: "/fr/le-projet/agenda/"
-  kind: page
-  children: []
 - title: Actualités
   target: "/fr/le-projet/actualites-1/"
   kind: page
