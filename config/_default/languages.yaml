@@ -7,11 +7,19 @@ pt:
   languageCode: pt
   languageName: Português
   params:
-    social:
-      youtube: >-
-        https://www.youtube.com/@Maquinasdodiaadia-ro8us
-      facebook: >-
-        https://www.facebook.com/profile.php?id=100091829744423
+    contact_details:
+      social_networks:
+        facebook:
+          label: >-
+            profile.php?id=100091829744423
+          value: >-
+            https://www.facebook.com/profile.php?id=100091829744423
+        youtube:
+          label: >-
+            Maquinasdodiaadia-ro8us
+          value: >-
+            https://www.youtube.com/@Maquinasdodiaadia-ro8us
+
   permalinks:
     events: /le-projet/agenda/:year-:month-:day-:slug/
     events_categories: /le-projet/agenda/:slug/
@@ -42,11 +50,19 @@ fr:
   languageCode: fr
   languageName: Français
   params:
-    social:
-      youtube: >-
-        https://www.youtube.com/@Maquinasdodiaadia-ro8us
-      facebook: >-
-        https://www.facebook.com/profile.php?id=100091829744423
+    contact_details:
+      social_networks:
+        facebook:
+          label: >-
+            profile.php?id=100091829744423
+          value: >-
+            https://www.facebook.com/profile.php?id=100091829744423
+        youtube:
+          label: >-
+            Maquinasdodiaadia-ro8us
+          value: >-
+            https://www.youtube.com/@Maquinasdodiaadia-ro8us
+
   permalinks:
     events: /le-projet/agenda/:year-:month-:day-:slug/
     events_categories: /le-projet/agenda/:slug/
