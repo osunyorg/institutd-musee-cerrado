@@ -5,16 +5,19 @@ items:
   target: "/pt/les-portraits/"
   kind: page
   children: []
+  path: "/pages/les-portraits"
   file: content/pt/pages/les-portraits/_index.html
 - title: Cordéis
   target: "/pt/cordels/"
   kind: page
   children: []
+  path: "/pages/cordels"
   file: content/pt/pages/cordels/_index.html
 - title: Máquinas
   target: "/pt/maquinas/"
   kind: page
   children: []
+  path: "/pages/maquinas"
   file: content/pt/pages/maquinas/_index.html
 - title: Projeto
   target: "/pt/le-projet/"
@@ -24,6 +27,8 @@ items:
     target: "/pt/le-projet/equipe/"
     kind: page
     children: []
+    path: "/persons"
     file: content/pt/persons/_index.html
+  path: "/pages/le-projet"
   file: content/pt/pages/le-projet/_index.html
 
