@@ -4,28 +4,33 @@ items:
 - title: Retratos
   target: "/pt/les-portraits/"
   kind: page
+  new_tab: false
   children: []
   path: "/pages/les-portraits"
   file: content/pt/pages/les-portraits/_index.html
 - title: Cordéis
   target: "/pt/cordels/"
   kind: page
+  new_tab: false
   children: []
   path: "/pages/cordels"
   file: content/pt/pages/cordels/_index.html
 - title: Máquinas
   target: "/pt/maquinas/"
   kind: page
+  new_tab: false
   children: []
   path: "/pages/maquinas"
   file: content/pt/pages/maquinas/_index.html
 - title: Projeto
   target: "/pt/le-projet/"
   kind: page
+  new_tab: false
   children:
   - title: Equipe
     target: "/pt/le-projet/equipe/"
     kind: page
+    new_tab: false
     children: []
     path: "/persons"
     file: content/pt/persons/_index.html
