@@ -23,6 +23,7 @@ pt:
   permalinks:
     events: /le-projet/agenda/:year-:month-:day-:slug/
     events_categories: /le-projet/agenda/:slug/
+    pages_categories: /:slug/
     projects: /campus/projets/:year-:slug/
     projects_categories: /campus/projets/:slug/
     posts: /campus/actualites/:year-:month-:day-:slug/
@@ -37,6 +38,7 @@ pt:
     events_category: events_categories
     location: locations
     organizations_category: organizations_categories
+    pages_category: pages_categories
     persons_category: persons_categories
     posts_category: posts_categories
     projects_category: projects_categories
@@ -66,6 +68,7 @@ fr:
   permalinks:
     events: /le-projet/agenda/:year-:month-:day-:slug/
     events_categories: /le-projet/agenda/:slug/
+    pages_categories: /:slug/
     projects: /campus/projets/:year-:slug/
     projects_categories: /campus/projets/:slug/
     posts: /campus/actualites/:year-:month-:day-:slug/
@@ -80,6 +83,7 @@ fr:
     events_category: events_categories
     location: locations
     organizations_category: organizations_categories
+    pages_category: pages_categories
     persons_category: persons_categories
     posts_category: posts_categories
     projects_category: projects_categories
