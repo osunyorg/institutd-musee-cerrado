@@ -2,6 +2,11 @@
 
 baseURL: https://musee-cerrado.institutd.osuny.site
 
+## OSUNY
+osuny:
+  website:
+    id: 13f2b380-2acf-4564-90b6-9e010a844101
+
 ## LANGUAGE
 defaultContentLanguage: pt
 defaultContentLanguageInSubdir: true
