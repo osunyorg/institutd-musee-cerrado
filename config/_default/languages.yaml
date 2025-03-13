@@ -6,6 +6,7 @@ pt:
   contentDir: content/pt
   languageCode: pt
   languageName: Português
+  buildFuture: true
   params:
     contact_details:
       social_networks:
@@ -21,7 +22,8 @@ pt:
             https://www.youtube.com/@Maquinasdodiaadia-ro8us
 
   permalinks:
-    events: /le-projet/agenda/:year-:month-:day-:slug/
+    events: /le-projet/agenda/:year/:slug/
+    exhibitions: /expositions/:year-:month-:day-:slug/
     events_categories: /le-projet/agenda/:slug/
     pages_categories: /:slug/
     projects: /campus/projets/:year-:slug/
@@ -52,6 +54,7 @@ fr:
   contentDir: content/fr
   languageCode: fr
   languageName: Français
+  buildFuture: true
   params:
     contact_details:
       social_networks:
@@ -67,7 +70,8 @@ fr:
             https://www.youtube.com/@Maquinasdodiaadia-ro8us
 
   permalinks:
-    events: /le-projet/agenda/:year-:month-:day-:slug/
+    events: /le-projet/agenda/:year/:slug/
+    exhibitions: /:year-:month-:day-:slug/
     events_categories: /le-projet/agenda/:slug/
     pages_categories: /:slug/
     projects: /campus/projets/:year-:slug/
