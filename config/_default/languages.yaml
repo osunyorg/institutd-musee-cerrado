@@ -71,7 +71,7 @@ fr:
 
   permalinks:
     events: /le-projet/agenda/:year/:slug/
-    exhibitions: /:year-:month-:day-:slug/
+    exhibitions: /expositions/:year-:month-:day-:slug/
     events_categories: /le-projet/agenda/:slug/
     pages_categories: /:slug/
     projects: /campus/projets/:year-:slug/
