@@ -19,7 +19,7 @@ jobs:
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: '0.136.5'
+          hugo-version: 'latest'
           extended: true
 
       - name: Setup Node
@@ -35,11 +35,12 @@ jobs:
         run: hugo -e production --minify
 
       - name: SFTP Deploy
-        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
         with:
-          server: ${{ secrets.FTP_HOSTNAME }}
+          server: mecapop.huma-num.fr
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
+          protocol: ftps
           local-dir: ./public/
           server-dir: /sites/mecapop/www/web_main/
 
