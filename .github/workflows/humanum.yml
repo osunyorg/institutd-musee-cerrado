@@ -38,7 +38,7 @@ jobs:
         with:
           username:  ${{ secrets.FTP_USERNAME }}
           server: 'mecapop.huma-num.fr'
-          ssh_private_key: ${{ secrets.FTP_PASSWORD }}
+          password: ${{ secrets.FTP_PASSWORD }}
           local_path: './public/*'
           remote_path: '/sites/mecapop/www/web_main'
           sftpArgs: '-o ConnectTimeout=5'
