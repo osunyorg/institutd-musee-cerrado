@@ -1,50 +1,49 @@
 name: Humanum
-
 on:
   push:
     branches:
-      - main
+      - main  # Set a branch to deploy
 jobs:
   deploy:
     runs-on: ubuntu-latest
     concurrency:
       group: ${{ github.workflow }}
-      cancel-in-progress: true
+      cancel-in-progress: false # Can cause difficulties to publish when lots of changes are done
     steps:
       - uses: actions/checkout@v3
         with:
-          submodules: true
-          fetch-depth: 1
+          submodules: true  # Fetch Hugo themes (true OR recursive)
+          fetch-depth: 1    # Fetch all history for .GitInfo and .Lastmod
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: 'latest'
+          hugo-version: '0.136.5'
           extended: true
 
       - name: Setup Node
         uses: actions/setup-node@v3
         with:
-          node-version: 'lts/*'
+          node-version: 'latest'
           cache: 'yarn'
 
       - name: Install JS dependencies
         run: yarn install --frozen-lockfile
 
       - name: Build
-        run: hugo -e production --minify
+        run: yarn osuny build
 
-      - name: SFTP Deploy
-        uses: SamKirkland/FTP-Deploy-Action@v4.1.0
+      - name: Deploy to Server
+        uses: wlixcc/SFTP-Deploy-Action@v1.2.6
         with:
-          server: mecapop.huma-num.fr
-          username: ${{ secrets.FTP_USERNAME }}
-          password: ${{ secrets.FTP_PASSWORD }}
-          protocol: ftps
-          local-dir: ./public/
-          server-dir: /sites/mecapop/www/web_main/
+          username:  ${{ secrets.FTP_USERNAME }}
+          server: 'mecapop.huma-num.fr'
+          ssh_private_key: ${{ secrets.FTP_PASSWORD }}
+          local_path: './public/*'
+          remote_path: '/sites/mecapop/www/web_main'
+          sftpArgs: '-o ConnectTimeout=5'
 
-      - name: Notification Slack en cas d'échec
+      - name: Notification Slack en cas d'échecs
         uses: ravsamhq/notify-slack-action@2.3.0
         if: always()
         with:
