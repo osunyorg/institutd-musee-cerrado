@@ -1,0 +1,54 @@
+name: Humanum
+on:
+  push:
+    branches:
+      - main  # Set a branch to deploy
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    concurrency:
+      group: ${{ github.workflow }}
+      cancel-in-progress: false # Can cause difficulties to publish when lots of changes are done
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          submodules: true  # Fetch Hugo themes (true OR recursive)
+          fetch-depth: 1    # Fetch all history for .GitInfo and .Lastmod
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: 'latest'
+          extended: true
+
+      - name: Setup Node
+        uses: actions/setup-node@v3
+        with:
+          node-version: 'latest'
+          cache: 'yarn'
+
+      - name: Install JS dependencies
+        run: yarn install --frozen-lockfile
+
+      - name: Build
+        run: yarn osuny build
+
+      - name: Deploy to Server
+        uses: wlixcc/SFTP-Deploy-Action@v1.2.6
+        with:
+          username:  ${{ secrets.FTP_USERNAME }}
+          server: 'mecapop.huma-num.fr'
+          password: ${{ secrets.FTP_PASSWORD }}
+          local_path: './public/*'
+          remote_path: '/sites/mecapop/www/web_main'
+          sftpArgs: '-o ConnectTimeout=5'
+
+      - name: Notification Slack en cas d'échecs
+        uses: ravsamhq/notify-slack-action@2.3.0
+        if: always()
+        with:
+          status: ${{ job.status }}
+          notify_when: "failure"
+          notification_title: ""
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}

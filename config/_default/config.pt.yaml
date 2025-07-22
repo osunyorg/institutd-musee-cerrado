@@ -1,7 +1,5 @@
-theme: osuny-hugo-theme-aaa
-paginate: 18
-enableRobotsTXT: true
-removePathAccents: true
+theme: osuny
+_merge: deep
 params:
   breadcrumb:
     position: after-hero

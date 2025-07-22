@@ -27,13 +27,6 @@ items:
   kind: page
   new_tab: false
   children:
-  - title: Équipe
-    target: "/fr/le-projet/equipe/"
-    kind: page
-    new_tab: false
-    children: []
-    path: "/persons"
-    file: content/fr/persons/_index.html
   - title: Démarche
     target: "/fr/le-projet/"
     kind: page
@@ -41,13 +34,20 @@ items:
     children: []
     path: "/pages/le-projet"
     file: content/fr/pages/le-projet/_index.html
+  - title: Équipe
+    target: "/fr/le-projet/equipe/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/persons"
+    file: content/fr/persons/_index.html
+  - title: blog
+    target: "/fr/le-projet/actualites-1/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/pages/le-projet/actualites-1"
+    file: content/fr/pages/le-projet/actualites-1/_index.html
   path: "/pages/le-projet"
   file: content/fr/pages/le-projet/_index.html
-- title: blog
-  target: "/fr/le-projet/actualites-1/"
-  kind: page
-  new_tab: false
-  children: []
-  path: "/pages/le-projet/actualites-1"
-  file: content/fr/pages/le-projet/actualites-1/_index.html
 
