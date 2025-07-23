@@ -27,13 +27,6 @@ items:
   kind: page
   new_tab: false
   children:
-  - title: blog
-    target: "/pt/projeto/blog/"
-    kind: page
-    new_tab: false
-    children: []
-    path: "/pages/projeto/blog"
-    file: content/pt/pages/projeto/blog/_index.html
   - title: Origem
     target: "/pt/projeto/"
     kind: page
@@ -48,6 +41,13 @@ items:
     children: []
     path: "/persons"
     file: content/pt/persons/_index.html
+  - title: blog
+    target: "/pt/projeto/blog/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/pages/projeto/blog"
+    file: content/pt/pages/projeto/blog/_index.html
   path: "/pages/projeto"
   file: content/pt/pages/projeto/_index.html
 
