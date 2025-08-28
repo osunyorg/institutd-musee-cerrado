@@ -13,7 +13,9 @@ params:
   logo:
     header: "/assets/images/logo_fr.svg"
     footer: "/assets/images/logo_fr.svg"
-    
+  home:
+    head:
+      title: site
   share_links:
     enabled: true
     whatsapp: true
