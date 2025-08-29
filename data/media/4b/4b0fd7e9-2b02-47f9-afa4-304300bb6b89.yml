@@ -1,7 +1,10 @@
 ---
 name: reseaux-museu-cerrado.jpg
 size: 342722
-format: square
+width: 1920
+height: 1080
+ratio: 1.7777777777777777
+format: landscape
 url: https://institutd.osuny.org/media/eyJfcmFpbHMiOnsiZGF0YSI6IjRiMGZkN2U5LTJiMDItNDdmOS1hZmE0LTMwNDMwMGJiNmI4OSIsInB1ciI6ImJsb2JfaWQifX0=--2f26ff0f52513b0c60e170c501879f33720954be/reseaux-museu-cerrado.jpg
 direct_url: https://osuny.s3.fr-par.scw.cloud/yea9oqtekg6qbtzd60gi016e8xrj
 download_url: https://institutd.osuny.org/media/download/eyJfcmFpbHMiOnsiZGF0YSI6IjRiMGZkN2U5LTJiMDItNDdmOS1hZmE0LTMwNDMwMGJiNmI4OSIsInB1ciI6ImJsb2JfaWQifX0=--2f26ff0f52513b0c60e170c501879f33720954be
