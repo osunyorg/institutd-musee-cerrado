@@ -1,8 +1,9 @@
 default:
   shared_image:
-    id: c21f08de-d81f-4802-904c-634de3422d5d
+    id: f6f63ec0-99fa-4c5f-8215-c04bf54dde90
 contents_reading_time:
   seconds: 0
   text: >-
     moins d'une minute
 contents:
+
