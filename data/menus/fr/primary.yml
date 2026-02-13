@@ -2,52 +2,69 @@
 title: menu principal
 items:
 - title: les portraits
+  slug: les-portraits
   target: "/fr/les-portraits/"
   kind: page
   new_tab: false
   children: []
+  descendants_targets: []
   path: "/pages/les-portraits"
   file: content/fr/pages/les-portraits/_index.html
 - title: les machines
+  slug: les-machines
   target: "/fr/les-machines/"
   kind: page
   new_tab: false
   children: []
+  descendants_targets: []
   path: "/pages/les-machines"
   file: content/fr/pages/les-machines/_index.html
 - title: les cordels
+  slug: les-cordels
   target: "/fr/cordels/"
   kind: page
   new_tab: false
   children: []
+  descendants_targets: []
   path: "/pages/cordels"
   file: content/fr/pages/cordels/_index.html
 - title: le projet
+  slug: le-projet
   target: "/fr/le-projet/"
   kind: page
   new_tab: false
   children:
   - title: Démarche
+    slug: demarche
     target: "/fr/le-projet/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/le-projet"
     file: content/fr/pages/le-projet/_index.html
   - title: Équipe
+    slug: equipe
     target: "/fr/le-projet/equipe/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/persons"
     file: content/fr/persons/_index.html
   - title: blog
+    slug: blog
     target: "/fr/le-projet/actualites-1/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/le-projet/actualites-1"
     file: content/fr/pages/le-projet/actualites-1/_index.html
+  descendants_targets:
+  - "/fr/le-projet/"
+  - "/fr/le-projet/actualites-1/"
+  - "/fr/le-projet/equipe/"
   path: "/pages/le-projet"
   file: content/fr/pages/le-projet/_index.html
 

@@ -2,24 +2,30 @@
 title: Informations légales
 items:
 - title: Informações legais
+  slug: informacoes-legais
   target: "/pt/mentions-legales/"
   kind: page
   new_tab: false
   children: []
+  descendants_targets: []
   path: "/pages/mentions-legales"
   file: content/pt/pages/mentions-legales/_index.html
 - title: acessibilidade
+  slug: acessibilidade
   target: "/pt/accessibilite/"
   kind: page
   new_tab: false
   children: []
+  descendants_targets: []
   path: "/pages/accessibilite"
   file: content/pt/pages/accessibilite/_index.html
 - title: Mapa do site
+  slug: mapa-do-site
   target: "/pt/mapa-do-site/"
   kind: page
   new_tab: false
   children: []
+  descendants_targets: []
   path: "/pages/mapa-do-site"
   file: content/pt/pages/mapa-do-site/_index.html
 

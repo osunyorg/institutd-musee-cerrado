@@ -2,52 +2,69 @@
 title: menu principal
 items:
 - title: Retratos
+  slug: retratos
   target: "/pt/les-portraits/"
   kind: page
   new_tab: false
   children: []
+  descendants_targets: []
   path: "/pages/les-portraits"
   file: content/pt/pages/les-portraits/_index.html
 - title: Máquinas
+  slug: maquinas
   target: "/pt/maquinas/"
   kind: page
   new_tab: false
   children: []
+  descendants_targets: []
   path: "/pages/maquinas"
   file: content/pt/pages/maquinas/_index.html
 - title: Cordéis
+  slug: cordeis
   target: "/pt/cordels/"
   kind: page
   new_tab: false
   children: []
+  descendants_targets: []
   path: "/pages/cordels"
   file: content/pt/pages/cordels/_index.html
 - title: Projeto
+  slug: projeto
   target: "/pt/projeto/"
   kind: page
   new_tab: false
   children:
   - title: Origem
+    slug: origem
     target: "/pt/projeto/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/projeto"
     file: content/pt/pages/projeto/_index.html
   - title: Equipe
+    slug: equipe
     target: "/pt/projeto/equipe/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/persons"
     file: content/pt/persons/_index.html
   - title: blog
+    slug: blog
     target: "/pt/projeto/blog/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/projeto/blog"
     file: content/pt/pages/projeto/blog/_index.html
+  descendants_targets:
+  - "/pt/projeto/"
+  - "/pt/projeto/blog/"
+  - "/pt/projeto/equipe/"
   path: "/pages/projeto"
   file: content/pt/pages/projeto/_index.html
 
