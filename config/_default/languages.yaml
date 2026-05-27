@@ -4,8 +4,8 @@ fr:
   title: >-
     musée cerrado
   contentDir: content/fr
-  languageCode: fr
-  languageName: Français
+  locale: fr
+  label: Français
   buildFuture: true
   params:
     contact_details:
@@ -41,8 +41,8 @@ pt:
   title: >-
     museu cerrado
   contentDir: content/pt
-  languageCode: pt
-  languageName: Português
+  locale: pt
+  label: Português
   buildFuture: true
   params:
     contact_details:
