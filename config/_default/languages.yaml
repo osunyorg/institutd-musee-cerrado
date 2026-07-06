@@ -24,7 +24,6 @@ fr:
   taxonomies:
     administrator: administrators
     author: authors
-    diploma: diplomas
     events_category: events_categories
     jobs_category: jobs_categories
     location: locations
@@ -61,7 +60,6 @@ pt:
   taxonomies:
     administrator: administrators
     author: authors
-    diploma: diplomas
     events_category: events_categories
     jobs_category: jobs_categories
     location: locations
