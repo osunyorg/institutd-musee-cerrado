@@ -18,13 +18,13 @@ jobs:
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: '0.163.3'
+          hugo-version: '0.168.0'
           extended: true
 
-      - name: Setup Node
-        uses: actions/setup-node@v3
+      - name: Installation de Node
+        uses: actions/setup-node@v6
         with:
-          node-version: 'latest'
+          node-version: 'lts/*'
           cache: 'yarn'
 
       - name: Install JS dependencies
